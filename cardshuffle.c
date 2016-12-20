@@ -41,8 +41,9 @@ void shuffle(unsigned int wDeck[][FACES])
 			column = rand() % FACES;
 		} 
 		while (wDeck[row][column] != 0);
-
+		{
 		wDeck[row][column] = card;
+		}
 	}
 }
 
